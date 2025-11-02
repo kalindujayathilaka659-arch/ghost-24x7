@@ -3,7 +3,7 @@ const axios = require("axios");
 
 cmd(
   {
-    pattern: "porngif",
+    pattern: "pornclip",
     react: "🖼️",
     desc: "Send a short real porn clip as GIF (from RedGifs)",
     category: "nsfw",
@@ -43,7 +43,7 @@ cmd(
           video: { url: gifUrl },
           caption: `🎞️ *${title}*\n🔗 ${pageUrl}`,
           mimetype: "video/mp4",
-          gifPlayback: true,
+          gifPlayback: false,
         },
         { quoted: mek }
       );
