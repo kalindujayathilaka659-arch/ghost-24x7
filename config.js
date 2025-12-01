@@ -17,7 +17,7 @@ module.exports = {
 
   MONGODB:
     process.env.MONGODB ||
-    "mongodb://mongo:EpwWYUPNichDpzFPjvRHNSVfxbEQRMDx@yamabiko.proxy.rlwy.net:22673",
+    "mongodb://mongo:hpUQBfKDebDPzvjCKExaOInJewMYqRVG@centerbeam.proxy.rlwy.net:23757",
 
   OWNER_NUM: (process.env.OWNER_NUM || "94701981053").split(","),
 
